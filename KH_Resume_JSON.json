@@ -1,0 +1,154 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "Competencies",
+    "awards": "Honors",
+    "education": "Education",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Kila Hancock",
+    "email": "kilahancock@gmail.com",
+    "phone": "919-428-7261",
+    "website": "",
+    "location": {
+      "address": "Charlotte, NC"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "www.linkedin.com/in/kilahancock"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/kilahancock"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "The University of North Carolina at Chapel Hill",
+      "location": "Chapel Hill, NC",
+      "area": "Minor - Social and Economic Justice",
+      "studyType": "B.S. Computer Science,",
+      "startDate": "2017",
+      "endDate": "2021",
+      "gpa": ""
+    }
+  ],
+  "work": [
+    {
+      "company": "Red Ventures",
+      "location": "Charlotte, NC",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "February 2025",
+      "highlights": [
+        "Serving as the back-end engineering pod lead as an SME of our digital buy flow, leading scoping conversations and driving development of new talent",
+        "Leading ongoing partner API error mitigation initiative - 2024: reduced errors by 22%, led to 35% less order loss",
+        "Collaborating with stakeholders to align new feature development with technical capabilities",
+        "Managing one associate engineer",
+        "Current opportunities: broadening influence, developing strategic long-term vision"
+      ],
+      "endDate": "Present"
+    },
+    {
+      "company": "Red Ventures",
+      "location": "Charlotte, NC",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "August 2022",
+      "highlights": [
+        "Serving as the back-end engineering pod lead as an SME of our digital buy flow, leading scoping conversations and driving development of new talent",
+        "Leading ongoing partner API error mitigation initiative - 2024: reduced errors by 22%, led to 35% less order loss",
+        "Collaborating with stakeholders to align new feature development with technical capabilities",
+        "Managing one associate engineer",
+        "Current opportunities: broadening influence, developing strategic long-term vision"
+      ],
+      "endDate": "February 2025"
+    },
+    {
+      "highlights": [
+        null,
+        "Migrated three legacy marketing landing page applications to Next.js",
+        "Led case study on the impact of CWVs (LCP) on conversion rate and presented findings to SLT",
+        "Expanded scope from landing page applications into digital buyflow"
+      ],
+      "company": "Red Ventures",
+      "position": "Associate Software Engineer",
+      "location": "Charlotte, NC",
+      "endDate": "August 2022",
+      "startDate": "January 2021"
+    }
+  ],
+  "skills": [
+    {
+      "name": "FE Web Development",
+      "level": "",
+      "keywords": [
+        "Typescript, React/Next.js",
+        "A/B Testing"
+      ]
+    },
+    {
+      "keywords": [
+        "Node/Express.js",
+        "Microsoft Azure + AWS Infrastructure",
+        "New Relic APM + Alerting"
+      ],
+      "name": "BE Web Development"
+    },
+    {
+      "keywords": [
+        "SQL",
+        "Databricks"
+      ],
+      "name": "Data"
+    },
+    {
+      "keywords": [
+        "Cypress, Jest"
+      ],
+      "name": "Testing"
+    },
+    {
+      "keywords": [
+        "DevOps, Client Relations, Mentorship, Agile Development"
+      ],
+      "name": "Logistics"
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "RVGT Engineering Best-o-All Award",
+      "awarder": "RVGT Engineering SLT",
+      "summary": "Recognized for taking initiative, going above and beyond with my work and improving the organization's overall culture",
+      "date": "August 2023"
+    },
+    {
+      "title": "RVGT Commitment to Quality Award",
+      "date": "December 2024",
+      "awarder": "RVGT SLT",
+      "summary": "Recognized for consistently managing multiple in-flight projects, while upholding code quality and meeting tight deadlines "
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "skills",
+    "work",
+    "awards",
+    "education",
+    "projects"
+  ]
+}
