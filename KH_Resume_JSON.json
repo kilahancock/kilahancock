@@ -45,9 +45,8 @@
       "startDate": "February 2025",
       "highlights": [
         "Serving as the back-end engineering pod lead as an SME of our digital buy flow, leading scoping conversations and driving development of new talent",
-        "Leading ongoing partner API error mitigation initiative - 2024: reduced errors by 22%, led to 35% less order loss",
-        "Collaborating with stakeholders to align new feature development with technical capabilities",
         "Managing one associate engineer",
+        "Leading vertical-wide resource group for developers on the pre-engineering management track",
         "Current opportunities: broadening influence, developing strategic long-term vision"
       ],
       "endDate": "Present"
@@ -59,11 +58,10 @@
       "website": "",
       "startDate": "August 2022",
       "highlights": [
-        "Serving as the back-end engineering pod lead as an SME of our digital buy flow, leading scoping conversations and driving development of new talent",
-        "Leading ongoing partner API error mitigation initiative - 2024: reduced errors by 22%, led to 35% less order loss",
-        "Collaborating with stakeholders to align new feature development with technical capabilities",
-        "Managing one associate engineer",
-        "Current opportunities: broadening influence, developing strategic long-term vision"
+        "Expanded scope from landing page applications into digital buyflow, transitioning from a frontend to a full stack role",
+        "Began leading an ongoing partner API error mitigation initiative - 2024: reduced errors by 22%, led to 35% less order loss",
+        "Established myself as a key resource for stakeholders to consult when aligning new feature development with technical capabilities and designing A/B tests",
+        "Maintained a 99% uptime for the digital buyflow by taking ownership of application performance monitoring, alerting and incident management"
       ],
       "endDate": "February 2025"
     },
@@ -72,7 +70,7 @@
         null,
         "Migrated three legacy marketing landing page applications to Next.js",
         "Led case study on the impact of CWVs (LCP) on conversion rate and presented findings to SLT",
-        "Expanded scope from landing page applications into digital buyflow"
+        "Led development of site rebrands for two Fortune 500 Telecommunications companies"
       ],
       "company": "Red Ventures",
       "position": "Associate Software Engineer",
