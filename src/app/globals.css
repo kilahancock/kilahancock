@@ -1,0 +1,17 @@
+:root {
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+
+  --color-font-primary: #4A4A4A;
+  --color-font-secondary: #1A1A1A;
+
+  --color-background: #FAFAF9;
+  --color-border: #eee;
+  --color-accent: #718096;
+  --color-accent-neutral: #B8926A;
+  --color-white: #FFFFFF;
+}
+  
+body {
+  font-family: var(--font-geist-sans);
+}

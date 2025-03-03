@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 .page {
-  font-family: 'Inter', sans-serif;
-  color: #2A2A2A;
-  background-color: #FAFAF9;
+  color: var(--color-font-primary);
+  background-color: var(--color-background);
   min-height: 100vh;
 }
 
 .header {
   text-align: center;
   padding: 2rem;
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #EAEAEA;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .header h1 {
   margin-bottom: 0.5rem;
-  color: #1A1A1A;
+  color: var(--color-font-secondary);
   font-weight: 600;
   font-size: 2.5rem;
 }
 
 .header p {
-  color: #4A4A4A;
+  color: var(--color-font-primary);
   font-size: 1.1rem;
 }
 
@@ -52,26 +51,26 @@
   border: none;
   border-radius: 8px;
   font-size: 1rem;
-  color: #666666;
+  color: var(--color-font-primary);
   cursor: pointer;
   transition: all 0.2s ease;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-geist-sans);
 }
 
 .navButton:hover {
   background-color: #F0F0F0;
-  color: #1A1A1A;
+  color: var(--color-font-secondary);
 }
 
 .navButton.active {
-  background-color: #B4846C;
-  color: #FFFFFF;
+  background-color: var(--color-accent-neutral);
+  color: var(--color-white);
   font-weight: 500;
 }
 
 .mainContent {
   flex-grow: 1;
-  background-color: #FFFFFF;
+  background-color: var(--color-white);
   border-radius: 12px;
   padding: 2rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -84,7 +83,7 @@
 .workItem, .educationItem, .awardItem, .skillCategory {
   margin-bottom: 2rem;
   padding: 1rem;
-  background-color: #FAFAF9;
+  background-color: var(--color-background);
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
@@ -94,13 +93,13 @@
 }
 
 .jobHeader h3 {
-  color: #2D2D2D;
+  color: var(--color-font-secondary);
   margin-bottom: 0.25rem;
   font-weight: 500;
 }
 
 .jobHeader p {
-  color: #666666;
+  color: var(--color-accent);
   margin: 0;
   font-size: 0.95rem;
 }
@@ -112,7 +111,7 @@
 
 .workItem li {
   margin-bottom: 0.75rem;
-  color: #4A4A4A;
+  color: var(--color-font-primary);
   line-height: 1.5;
 }
 
@@ -154,20 +153,20 @@
 .companyGroup {
   margin-bottom: 3rem;
   padding: 2rem;
-  border: 1px solid #eee;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
-  background: linear-gradient(to bottom, #ffffff, #fafafa);
+  background: linear-gradient(to bottom, var(--color-white), var(--color-background));
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .companyName {
   font-size: 1.5rem;
-  color: #2d3748;
+  color: var(--color-font-secondary);
   margin-bottom: 0.25rem;
 }
 
 .companyLocation {
-  color: #718096;
+  color: var(--color-accent);
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
 }
@@ -179,7 +178,7 @@
 
 .roleStep {
   padding: 1.25rem 0 1.25rem 2rem;
-  border-left: 3px solid #B8926A;
+  border-left: 3px solid var(--color-accent-neutral);
   position: relative;
   transition: all 0.3s ease;
 }
@@ -191,18 +190,18 @@
 .roleStep::before {
   content: '';
   position: absolute;
-  left: -8px;
+  left: -11px;
   top: 28px;
   width: 14px;
   height: 14px;
   background: #fff;
-  border: 3px solid #B8926A;
+  border: 3px solid var(--color-accent-neutral);
   border-radius: 50%;
   transition: all 0.3s ease;
 }
 
 .roleStep:hover::before {
-  background: #B8926A;
+  background: var(--color-accent-neutral);
 }
 
 .jobHeader {
@@ -211,18 +210,18 @@
 
 .jobHeader h4 {
   font-size: 1.1rem;
-  color: #2d3748;
+  color: var(--color-font-secondary);
   margin-bottom: 0.4rem;
 }
 
 .jobHeader p {
-  color: #718096;
+  color: var(--color-accent);
   font-size: 0.9rem;
 }
 
 .roleStep ul {
   margin-left: 1rem;
-  color: #4a5568;
+  color: var(--color-font-primary);
 }
 
 .roleStep li {
@@ -237,9 +236,9 @@
 .roleStep:first-child::after {
   content: '▲';
   position: absolute;
-  left: -9.5px;
-  top: -8px;
-  color: #B8926A;
+  left: -8px;
+  top: -4px;
+  color: var(--color-accent-neutral);
   font-size: 0.8rem;
   transform: translateY(-50%);
 }
