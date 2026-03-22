@@ -101,9 +101,37 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <header className={styles.header}>
-        <h1>{resumeData.basics.name}</h1>
-        <p>
-          {resumeData.basics.email} | {resumeData.basics.phone} | {resumeData.basics.location.address}
+        <p className={styles.shellLine} aria-hidden="true">
+          <span className={styles.shellPrompt}>~/portfolio</span>
+          <span className={styles.shellBranch}>git:(main)</span>
+        </p>
+        <h1 className={styles.title}>
+          <span className={styles.titlePrompt}>$ whoami</span>
+          <span className={styles.nameBlock}>
+            <span className={styles.nameText}>{resumeData.basics.name}</span>
+            <span className={styles.cursor} aria-hidden="true">
+              ▌
+            </span>
+          </span>
+        </h1>
+        <p className={styles.metaLine}>
+          <span className={styles.metaChunk}>
+            <span className={styles.metaKey}>email</span>
+            <span className={styles.metaEq}>=</span>
+            <span className={styles.metaVal}>{resumeData.basics.email}</span>
+          </span>
+          <span className={styles.metaSep}>::</span>
+          <span className={styles.metaChunk}>
+            <span className={styles.metaKey}>phone</span>
+            <span className={styles.metaEq}>=</span>
+            <span className={styles.metaVal}>{resumeData.basics.phone}</span>
+          </span>
+          <span className={styles.metaSep}>::</span>
+          <span className={styles.metaChunk}>
+            <span className={styles.metaKey}>location</span>
+            <span className={styles.metaEq}>=</span>
+            <span className={styles.metaVal}>{resumeData.basics.location.address}</span>
+          </span>
         </p>
       </header>
 
@@ -129,6 +157,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className={styles.footer}>
+        <p className={styles.footerLabel}># social graph</p>
         <div className={styles.socialLinks}>
           <a 
             href={resumeData.basics.profiles.find(p => p.network === 'LinkedIn')?.url} 

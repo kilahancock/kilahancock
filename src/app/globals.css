@@ -2,16 +2,24 @@
   --font-geist-sans: 'Geist', sans-serif;
   --font-geist-mono: 'Geist Mono', monospace;
 
-  --color-font-primary: #4A4A4A;
-  --color-font-secondary: #1A1A1A;
+  --color-font-primary: #2b3542;
+  --color-font-secondary: #0f1729;
+  --color-syntax-dim: #647896;
+  --color-syntax-key: #0d7d6f;
+  --color-syntax-str: #c45c26;
 
-  --color-background: #FAFAF9;
-  --color-border: #eee;
-  --color-accent: #718096;
-  --color-accent-neutral: #B8926A;
-  --color-white: #FFFFFF;
+  --color-background: #ebe6dc;
+  --color-surface: #fffdf7;
+  --color-surface-2: #f6f2ea;
+  --color-border: #b8c4ce;
+  --color-border-strong: #7a8fa3;
+  --color-accent: #0d9488;
+  --color-accent-hot: #ea580c;
+  --color-accent-muted: #5b6778;
+  --color-white: #fffcf5;
 }
-  
+
 body {
   font-family: var(--font-geist-sans);
+  font-feature-settings: "ss01" on;
 }
